@@ -7,3 +7,14 @@
 
 ------
 2.0新增php后台验证（测试中）
+
+
+
+```
+for firefox imgver.2.0.js
+line 126:
+
+////	ctx_l.shadowBlur = 10;   //// remove
+////	ctx_l.shadowColor = "black"; //// remove
+ctx_s.fill(); //// added
+```
